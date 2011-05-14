@@ -1,29 +1,30 @@
 # Bakalářská práce: Kontinuální integrace při vývoji webových aplikací v PHP
 
 ## Nástřel osnovy
-- teoretická část
- - Charakteristika konceptu Continuous Integration
- - procesní věci
-  - časté commity - po ticketech
-  - automatizované testování
- - verzovací systémy
-- praktická část - integrační servery
- - porovnání nástrojů
-  - Jenkins (dříve Hudson) - http://jenkins-php.org/, https://github.com/jenkinsci/jenkins
-   - reportovací pluginy do Eclipse/Netbeans/..
-  - Xinc - http://www.slideshare.net/arnoschn/continuous-integration-and-php
-  - PhpUnderControl - https://github.com/phpundercontrol/phpUnderControl
- - výběr konkrétního (asi Jenkins)
-- praktická část - nástroje kontroly kvality zdrojových kódů v PHP
- -  precommit hook na PHP Lint
- - precommit hook na coding standards
- - praktická ukázka CI platformy
-- Praktická implementace CI platformy v malé firmě
- - nastavení od A-Z
- - praktické použití na nějakém projektu
-- další
- - continuous delivery
- - phing
+
+### Teoretická část
+- Charakteristika konceptu Continuous Integration
+- procesní věci
+ - časté commity - po ticketech
+ - automatizované testování
+- verzovací systémy
+### Praktická část - integrační servery
+- porovnání nástrojů
+ - Jenkins (dříve Hudson) - http://jenkins-php.org/, https://github.com/jenkinsci/jenkins
+  - reportovací pluginy do Eclipse/Netbeans/..
+ - Xinc - http://www.slideshare.net/arnoschn/continuous-integration-and-php
+ - PhpUnderControl - https://github.com/phpundercontrol/phpUnderControl
+- výběr konkrétního (asi Jenkins)
+### Praktická část - nástroje kontroly kvality zdrojových kódů v PHP
+-  precommit hook na PHP Lint
+- precommit hook na coding standards
+### Praktická implementace CI platformy v malé firmě
+- nastavení od A-Z
+- praktické použití na nějakém projektu
+### Další
+- continuous delivery
+- phing
+
 
 ## Zdroje
 
