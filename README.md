@@ -8,6 +8,7 @@
  - časté commity - po ticketech
  - automatizované testování
 - verzovací systémy
+
 ### Praktická část - integrační servery
 - porovnání nástrojů
  - Jenkins (dříve Hudson) - http://jenkins-php.org/, https://github.com/jenkinsci/jenkins
@@ -15,12 +16,15 @@
  - Xinc - http://www.slideshare.net/arnoschn/continuous-integration-and-php
  - PhpUnderControl - https://github.com/phpundercontrol/phpUnderControl
 - výběr konkrétního (asi Jenkins)
+
 ### Praktická část - nástroje kontroly kvality zdrojových kódů v PHP
 -  precommit hook na PHP Lint
 - precommit hook na coding standards
+
 ### Praktická implementace CI platformy v malé firmě
 - nastavení od A-Z
 - praktické použití na nějakém projektu
+
 ### Další
 - continuous delivery
 - phing
