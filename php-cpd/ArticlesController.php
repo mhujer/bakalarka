@@ -1,12 +1,12 @@
 <?php
-class ArticlesController extends Zend_Controller_action
+class ArticlesController extends Zend_Controller_Action
 {
     /**
      * Index action
      */
     public function indexAction()
     {
-        /* naètení pøehledu èlánkù ... */
+        /* naÄtenÃ­ pÅ™ehledu ÄlÃ¡nkÅ¯ ... */
     }
     
     public function addArticleAction()
@@ -41,7 +41,7 @@ class ArticlesController extends Zend_Controller_action
             'name'    => 'categories',
             'label'   => 'kategorie',
             'size'    => 10,
-            'description'  => 'Vyberte kategorie èlánku',
+            'description'  => 'Vyberte kategorie ÄlÃ¡nku',
             'multiOptions' => (array) $this->_getCategories(/*...*/),
         )));
         
@@ -94,7 +94,7 @@ class ArticlesController extends Zend_Controller_action
             'name'    => 'categories',
             'label'   => 'kategorie',
             'size'    => 10,
-            'description'  => 'Vyberte kategorie èlánku',
+            'description'  => 'Vyberte kategorie ÄlÃ¡nku',
             'multiOptions' => (array) $this->_getCategories(/*...*/),
         )));
         
