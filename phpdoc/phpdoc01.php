@@ -10,7 +10,7 @@ class MyClass
      * Funkce foo nic nedělá, jen vrátí předaný parametr.
      * 
      * @param boolean $param Předaný parametr
-     * @returxn boolean
+     * @return boolean
      */
     public function foo($param)
     {
