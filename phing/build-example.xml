@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Ukazkove sestaveni" default="build">
+    <target name="cleanup">
+        <echo message="Zde by byly dalsi ulohy pro vycisteni pracovniho adresare"></echo>
+    </target>
+    
+    <target name="build" depends="cleanup">
+        <echo message="Zde by byly dalsi ulohy pro sestaveni"></echo>
+    </target>
+</project>
