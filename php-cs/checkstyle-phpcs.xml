@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.3.3">
+ <file name="I:\_BP\php-cs\ArticlesController.php">
+  <error line="2" column="56" severity="error" message="Opening brace of a class must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+  <error line="6" column="34" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+  <error line="7" column="42" severity="error" message="Closing brace must be on a line by itself" source="PEAR.WhiteSpace.ScopeClosingBrace.Line"/>
+  <error line="8" column="5" severity="error" message="Closing brace indented incorrectly; expected 0 spaces, found 4" source="PEAR.WhiteSpace.ScopeClosingBrace.Indent"/>
+ </file>
+</checkstyle>
