@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Shopio" description="Build script for Shopio" default="phploc">
+    <target name="cleanbuild" description="Vyčistění workspace">
+        <delete dir="${project.basedir}/workspace/build"/>
+    </target>
+    
+    <target name="prepare" depends="cleanbuild" description="Příprava workspace">
+        <mkdir dir="${project.basedir}/workspace/build"/>
+    </target>
+
+    <target name="phploc" depends="prepare" description="Analýza PHPLOC">
+        <exec command="phploc --log-csv ${project.basedir}/workspace/build/phploc.csv ${project.basedir}/workspace/data" logoutput="true" />
+    </target>
+</project>
